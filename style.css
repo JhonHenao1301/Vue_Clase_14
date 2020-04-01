@@ -1,0 +1,61 @@
+
+html {
+  padding: 20px;
+  color: #3d3d3d;
+}
+
+#app{
+  background-color: rgb(236, 243, 171);
+}
+
+.appTitle{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+.appForm{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.appForm p{
+  justify-content: center;
+}
+
+.appForm p input{
+  width: 200px;
+  height: 30px;
+  border: 1px solid #a19f9f;
+  border-radius: 5px;
+}
+
+.appForm p button{
+  width: 200px;
+  height: 30px;
+  border: 1px solid #3d3d3d;
+  border-radius: 5px;
+}
+
+
+.appMessage{
+  display: flex;
+  justify-content: center;
+}
+
+.appMessage h3{
+  display: flex;
+  justify-content: center;
+}
+
+.appMessage p{
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.red {
+  color: tomato;
+}
